@@ -23,7 +23,7 @@ const App: React.FC = () => {
             <div className="absolute inset-0 z-0">
                {/* Note: In a real environment, ensure 'image.webp' exists in your public folder. */}
               <img 
-                src="./assets/images/image.webp" 
+                src="/assets/images/image.webp" 
                 alt="Aman Raibole" 
                 className="w-full h-full object-cover object-top fade-bottom"
                 onError={(e) => {
