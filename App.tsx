@@ -1,19 +1,18 @@
 import React from 'react';
 import { LinkedInIcon, GitHubIcon, InstagramIcon } from './components/BrandIcons';
 import LinkButton from './components/LinkButton';
-import profileImage from "./assets/images/image.webp";
 
 import Galaxy from './Galaxy';
-import OrbitImages from './OrbitImages'
+import OrbitImages from './OrbitImages';
 
-const images = [
-  "./assets/images/Earth.webp",
-  "./assets/images/moon.webp",
-  "./assets/images/pinkplanet.webp",
-  "./assets/images/yellowplanet.webp",
-  "./assets/images/greenplanet.webp",
-  "./assets/images/redblueplanet.webp"
-];
+import earth from './assets/images/Earth.webp';
+import moon from './assets/images/moon.webp';
+import pinkPlanet from './assets/images/pinkplanet.webp';
+import yellowPlanet from './assets/images/yellowplanet.webp';
+import greenPlanet from './assets/images/greenplanet.webp';
+import redBluePlanet from './assets/images/redblueplanet.webp';
+
+const images = [earth, moon, pinkPlanet, yellowPlanet, greenPlanet, redBluePlanet];
 const App: React.FC = () => {
   return (
     <div className="min-h-screen w-full bg-black text-white font-sans selection:bg-white selection:text-black overflow-x-hidden">
