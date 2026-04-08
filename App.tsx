@@ -7,12 +7,12 @@ import Galaxy from './Galaxy';
 import OrbitImages from './OrbitImages'
 
 const images = [
-  "./assets/images/Earth.png",
-  "./assets/images/moon.png",
-  "./assets/images/pinkplanet.png",
-  "./assets/images/yellowplanet.png",
-  "./assets/images/greenplanet.png",
-  "./assets/images/redblueplanet.png"
+  "./assets/images/Earth.webp",
+  "./assets/images/moon.webp",
+  "./assets/images/pinkplanet.webp",
+  "./assets/images/yellowplanet.webp",
+  "./assets/images/greenplanet.webp",
+  "./assets/images/redblueplanet.webp"
 ];
 const App: React.FC = () => {
   return (
